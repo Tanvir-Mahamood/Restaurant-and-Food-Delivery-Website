@@ -26,13 +26,13 @@
 html {
     scroll-behavior: smooth;
     /*background: linear-gradient(90deg, red, orange);*/
-    background: linear-gradient(90deg, rgb(241, 6, 6), rgb(255, 0, 212));
+    /*background: linear-gradient(90deg, rgb(126, 209, 248), rgb(255, 0, 212));*/
+    background-color: rgb(247, 183, 100);
 }
 
 section {
     margin: 0 auto;
     max-width: 1200px;
-    padding: 2rem;
 }
 
 .title {
@@ -49,11 +49,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
     flex-flow: column;
-    background-color: black;
     min-height: 20rem;
-
     font-size: 5rem;
     color: white;
     text-transform: capitalize;
@@ -104,9 +101,9 @@ section {
 .message {
     position: sticky;
     top: 0;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     margin: 0 auto;
-    padding: 2rem;
+    /*padding: 2rem;*/
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -148,7 +145,7 @@ section {
     top: 0; left: 0; right: 0;
     z-index: 1000;
     background-color: antiquewhite;
-    
+    /*ackground: linear-gradient(90deg, red, rgb(255, 0, 212));*/
 }
 
 .header .flex {
@@ -161,7 +158,6 @@ section {
 .header .flex h2 {
     font-size: 3rem;
     color: black;
-    padding: 10px;
     border: 5px double darkblue;
     border-radius: 20%;
 }
@@ -200,13 +196,12 @@ section {
 
 .header .flex .profile {
     background-color: white;
-    border: 2rem solid black;
-    padding: 1.5rem;
+    border: 0.5rem solid black;
+    padding: 1rem;
     text-align: center;
     position: absolute;
-    top: 100%; right: 2rem;
+    top: 100%; right: 1rem;
     width: 30rem;
-    background-color: aquamarine;
     display: none;
     animation: fadeIn 0.5s linear;
 }
@@ -852,7 +847,6 @@ section {
     gap: 1.5rem;
     justify-content: space-evenly;
     background-color: white;
-    border-radius: 30%;
 }
 
 .footer .grid .box {
